@@ -8,11 +8,11 @@ katalogus.Add(new Ujsag("Magyar Hírlap",2003,30));
 Dvd dvd = new Dvd("Lord of THe Rings", 300);
 dvd.fillDvd();
 dvd.Dvdk.Sort();
-/*foreach (var k in katalogus)
+foreach (var k in katalogus)
 {
     Console.WriteLine(k);
-}*/
-
+}
+Console.WriteLine("----------");
 foreach  (var d in dvd.Dvdk)
 {
     Console.WriteLine(d);
